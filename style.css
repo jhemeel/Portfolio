@@ -83,14 +83,11 @@ header {
 header.active {
   background-color: var(--page-color);
   padding: 2rem 9%;
-  /* box-shadow: inset 2px 2px 0 5px #222222; */
+  box-shadow: inset 2px 0 5px #222222;
 }
 header.active .navbar a {
   color: var(--ink);
   background-image: linear-gradient(var(--ink), var(--ink));
-}
-header.active .navbar a:hover {
-  /* color: var(--yellow); */
 }
 
 header .navbar {
